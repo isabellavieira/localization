@@ -12,6 +12,7 @@
 		4F35833C1D6F2123006B2E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F35833A1D6F2123006B2E9A /* Main.storyboard */; };
 		4F35833E1D6F2123006B2E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F35833D1D6F2123006B2E9A /* Assets.xcassets */; };
 		4F3583411D6F2123006B2E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F35833F1D6F2123006B2E9A /* LaunchScreen.storyboard */; };
+		4F3583891D6F3163006B2E9A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F35838B1D6F3163006B2E9A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,14 @@
 		4F35833D1D6F2123006B2E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F3583401D6F2123006B2E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F3583421D6F2123006B2E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F35834D1D6F27E5006B2E9A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4F35834F1D6F27F3006B2E9A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4F35838A1D6F3163006B2E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F35838C1D6F3168006B2E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F35838D1D6F3169006B2E9A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4F35838E1D6F316C006B2E9A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F3583961D6F3634006B2E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4F3583981D6F3636006B2E9A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,7 @@
 		4F35832A1D6F2123006B2E9A = {
 			isa = PBXGroup;
 			children = (
+				4F35838B1D6F3163006B2E9A /* Localizable.strings */,
 				4F3583351D6F2123006B2E9A /* internationalization */,
 				4F3583341D6F2123006B2E9A /* Products */,
 			);
@@ -96,6 +106,8 @@
 				TargetAttributes = {
 					4F3583321D6F2123006B2E9A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NRFQJ4SFMZ;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -106,6 +118,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
+				fr,
 			);
 			mainGroup = 4F35832A1D6F2123006B2E9A;
 			productRefGroup = 4F3583341D6F2123006B2E9A /* Products */;
@@ -125,6 +139,7 @@
 				4F3583411D6F2123006B2E9A /* LaunchScreen.storyboard in Resources */,
 				4F35833E1D6F2123006B2E9A /* Assets.xcassets in Resources */,
 				4F35833C1D6F2123006B2E9A /* Main.storyboard in Resources */,
+				4F3583891D6F3163006B2E9A /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +162,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				4F35833B1D6F2123006B2E9A /* Base */,
+				4F3583961D6F3634006B2E9A /* en */,
+				4F3583981D6F3636006B2E9A /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +172,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				4F3583401D6F2123006B2E9A /* Base */,
+				4F35834D1D6F27E5006B2E9A /* pt-BR */,
+				4F35834F1D6F27F3006B2E9A /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F35838B1D6F3163006B2E9A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F35838A1D6F3163006B2E9A /* en */,
+				4F35838C1D6F3168006B2E9A /* Base */,
+				4F35838D1D6F3169006B2E9A /* pt-BR */,
+				4F35838E1D6F316C006B2E9A /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -251,10 +281,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NRFQJ4SFMZ;
 				INFOPLIST_FILE = internationalization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bepid-apple.internationalization";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -262,10 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NRFQJ4SFMZ;
 				INFOPLIST_FILE = internationalization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bepid-apple.internationalization";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +322,7 @@
 				4F3583471D6F2123006B2E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

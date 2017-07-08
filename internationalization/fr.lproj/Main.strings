@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "$ 1,000.00"; ObjectID = "4dt-u2-Rfc"; */
+"4dt-u2-Rfc.text" = "$ 1,000.00";
+
+/* Class = "UILabel"; text = "Moeda:"; ObjectID = "F8j-Z7-PXg"; */
+"F8j-Z7-PXg.text" = "Moeda:";
+
+/* Class = "UILabel"; text = "25/08/2016"; ObjectID = "PrJ-Gy-qhf"; */
+"PrJ-Gy-qhf.text" = "25/08/2016";
+
+/* Class = "UILabel"; text = "Data:"; ObjectID = "R70-03-TSA"; */
+"R70-03-TSA.text" = "Data:";
+
+/* Class = "UILabel"; text = "Good Morning"; ObjectID = "cIC-Jd-mE1"; */
+"cIC-Jd-mE1.text" = "Good Morning";
+
+/* Class = "UILabel"; text = "Texto:"; ObjectID = "qJg-lZ-Uao"; */
+"qJg-lZ-Uao.text" = "Texto:";

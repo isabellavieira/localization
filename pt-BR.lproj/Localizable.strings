@@ -1,0 +1,12 @@
+/* 
+  Localize.strings
+  internationalization
+
+  Created by Isabella Vieira on 8/25/16.
+  Copyright © 2016 Isabella Vieira. All rights reserved.
+*/
+
+
+"Good Morning" = "Bom dia";
+"Currency"= "Moeda";
+"Text"= "Texto";
